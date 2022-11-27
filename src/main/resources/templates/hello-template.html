@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello MVC</title>
+</head>
+<body>
+<!-- html을 서버없이 열어도 볼 수 있는 걸 확인하기 위해 hello empty 적음, 실제 서버 가동 시 name 값으로 바뀜 -->
+<p th:text="'hello ' + ${name}">hello! empty</p>
+</body>
+</html>
